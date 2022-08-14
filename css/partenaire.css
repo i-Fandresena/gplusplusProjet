@@ -1,0 +1,94 @@
+
+/* @font-face{
+    font-family:"Teko";
+    src: url("Teko/Teko-Light.ttf") format("truetype");
+ } 
+ @font-face {
+    font-family:"Bebas Neue";
+    src: url("Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
+}
+  *{ padding: 0;
+    margin: 0;
+    font-family: "Teko";
+}
+
+body{
+    background-color: #5D1924;
+    font-family:"Teko";
+}
+*/
+.sah_container{
+    margin: 20px 40px;
+    color: white;
+}
+
+.heading{
+    font-size: 60px;
+    color: white;
+}
+ 
+.heading span {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.profiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.profile .profile-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.profile:hover .profile-img{
+    filter: grayscale(0);
+}
+
+.user-name{
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.profile h5{
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #ccc;
+    font-family: "Bebas_Neue";
+}
+
+.profile p{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+#partenaire{
+    width: 80%;
+    margin: auto;
+}
+
+.well{
+    max-width: 300px;
+    padding: 15px;
+    margin-left: 20%;
+}
+
+.myimage{
+    margin: auto;
+    margin-left: 20%;
+}
+
+footer{
+    margin-top: -25px;
+}
